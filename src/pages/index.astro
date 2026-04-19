@@ -4,7 +4,7 @@ import MainLayout from "../layouts/MainLayout.astro";
 import { GitCard, LinkedInCard } from "../components/SocialCards.jsx";
 import { Separator } from "../components/ui/separator.jsx";
 
-import init, { calculate_age_rust } from "wasm_fns/pkg/wasm_fns.js";
+import init, { calculate_age_rust } from "../../wasm_fns/pkg/wasm_fns";
 import { readFile } from "node:fs/promises";
 import * as path from "node:path";
 
